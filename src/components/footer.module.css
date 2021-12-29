@@ -1,0 +1,32 @@
+footer {
+    padding: 28px 0;
+}
+footer .footer-inner {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+footer .footer-inner .footer-left p {
+    color: var(--dark-gray);
+    text-align: center;
+    font-style: italic;
+    font-size: 0.8em;
+}
+
+footer .footer-inner .footer-right {
+    margin-left: auto;
+}
+footer .footer-inner .footer-right .icon {
+    height: 28px;
+    margin-left: 12px;
+    width: 28px;
+    /* transition: opacity 0.2s; */
+    opacity: 0.6;
+}
+footer .footer-inner .footer-right .icon:hover {
+    transition: 0.25s;
+    box-shadow: -5px -5px var(--dark-gray);
+    opacity: 0.3;
+}

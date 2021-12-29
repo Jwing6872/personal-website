@@ -1,6 +1,6 @@
 import * as React from 'react'
 import { Link } from 'gatsby'
-import { Footer } from './footer.js'
+import Footer from './footer.js'
 import {
     container,
     heading,
@@ -20,7 +20,7 @@ const Layout = ({ pageTitle, children }) => {
           <li className={navLinkItem}><Link to="/experience" className={navLinkText}>Experience</Link></li>
           <li className={navLinkItem}><Link to="/coursework" className={navLinkText}>Coursework</Link></li>
           <li className={navLinkItem}><Link to="/projects" className={navLinkText}>Projects</Link></li>
-          <li className={navLinkItem}><Link to="/misc" className={navLinkText}>Misc</Link></li>
+          <li className={navLinkItem}><Link to="/blog" className={navLinkText}>Blog</Link></li>
         </ul>
       </nav>
       <main>
