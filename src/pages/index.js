@@ -10,7 +10,7 @@ const IndexPage = () => {
     <Layout pageTitle="John Wang">
       <StaticImage
         alt="A photograph of me (at hotpot)."
-        src="../images/hotpot.jpg"
+        src="../images/close-up-hotpot.jpg"
         className = {circularImage}
       />
         <p> hi </p>
