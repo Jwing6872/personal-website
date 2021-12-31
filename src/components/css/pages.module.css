@@ -16,27 +16,22 @@
 
 .metadata {
     color: var(--lightest-gray);
+    margin: 0;
 }
 
 .flex-wrapper > div {
-    flex: 0 1 50%;
+    flex: 0 1 100%;
 }
 
 .box > li {
-    text-align: left;
-    font-size: 0.85rem;
-    line-height: 2;
+    font-size: 0.80rem;
+    margin: 0 0 5px 0;
 }
 
 h2 { 
-    font-weight: 400;
-    margin: 5rem 0 0 0;
-}
-
-h3 {
-    color: var(--red);
-    font-weight: 300;
-
+    color: var(--light-gray);
+    font-weight: 700;
+    font-size: 1.1rem;
 }
 
 .link-wrapper {
