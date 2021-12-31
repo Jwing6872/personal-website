@@ -1,0 +1,59 @@
+@import './root.module.css';
+
+.flex-wrapper {
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.key {
+    display:flex;
+    justify-content: center;
+    /* margin-top: 5%; */
+    margin-bottom: 20px;
+    font-style: italic; 
+    font-size: 0.65rem;
+}
+
+.flex-wrapper > div {
+    flex: 1 1 50%;
+}
+
+.box > li{
+    text-align: left;
+    font-size: 0.85rem;
+    line-height: 2;
+    /* font-style: italic; */
+}
+
+h2 {
+    color: var(--red);
+    font-weight: 300;
+    /* text-align: left; */
+}
+
+.link-wrapper {
+    display:inline-block;
+}
+.link-text {
+    color: var(--red);
+    text-decoration: none;
+    transform: scaleX(0);
+}
+
+.link-text:after {
+  display:block;
+  content: '';
+  border-bottom: solid 1px var(--dark-red);  
+  transform: scaleX(0);  
+  transition: transform 150ms ease-in-out;
+  transform-origin: 0% 50%;
+}
+
+.link-text:hover:after { 
+    transform: scaleX(1); 
+}
+
+.link-text > span {
+    display:inline;
+}

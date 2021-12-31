@@ -1,30 +1,42 @@
 import * as React from 'react'
-import { Link } from 'gatsby'
+import { Link, useStaticQuery, graphql } from 'gatsby'
 import Footer from './footer.js'
 import {
     container,
-    heading,
     navLinks,
     navLinkItem,
-    navLinkText
-  } from './layout.module.css'
+    linkText,
+    siteTitle
+  } from './css/layout.module.css'
   
 
 const Layout = ({ pageTitle, children }) => {
+  const data = useStaticQuery(graphql`
+    query MyQuery {
+      site {
+        siteMetadata {
+          title
+        }
+      }
+    }
+  `)
+
   return (
     <div className={container}>
-      <title>{pageTitle}</title>
+      <title>{pageTitle} | {data.site.siteMetadata.title}</title>
+      <header className={siteTitle}>{data.site.siteMetadata.title}</header>
       <nav>
-        <ul className = {navLinks}>
-          <li className={navLinkItem}><Link to="/" className={navLinkText}>Home</Link></li>
-          <li className={navLinkItem}><Link to="/experience" className={navLinkText}>Experience</Link></li>
-          <li className={navLinkItem}><Link to="/coursework" className={navLinkText}>Coursework</Link></li>
-          <li className={navLinkItem}><Link to="/projects" className={navLinkText}>Projects</Link></li>
-          <li className={navLinkItem}><Link to="/blog" className={navLinkText}>Blog</Link></li>
-        </ul>
+          <ul className = {navLinks}>
+            <li className={navLinkItem}><Link to="/" className={linkText}>Home</Link></li>
+            <li className={navLinkItem}><Link to="/experience" className={linkText}>Experience</Link></li>
+            <li className={navLinkItem}><Link to="/coursework" className={linkText}>Coursework</Link></li>
+            <li className={navLinkItem}><Link to="/projects" className={linkText}>Projects</Link></li>
+            <li className={navLinkItem}><Link to="/blog" className={linkText}>Blog</Link></li>
+          </ul>
       </nav>
+      {/* <hr/> */}
       <main>
-        <h1 className={heading}>{pageTitle}</h1>
+        <h1>{pageTitle}</h1>
         {children}
       </main>
     <Footer/>

@@ -5,7 +5,7 @@ import {
     footerInner,
     footerRight,
     footerLeft
-} from './footer.module.css'
+} from './css/footer.module.css'
 
 const Footer = () => {
     return (
