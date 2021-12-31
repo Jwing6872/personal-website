@@ -3,12 +3,12 @@ import * as React from 'react'
 import Layout from '../../components/layout'
 
 // Step 2: Define your component
-const BakingPage = () => {
+const BlogPage = () => {
   return (
-    <Layout pageTitle="Baking Page">
-        <p> hi </p>
+    <Layout pageTitle="Blog...">
+        <p>coming soon!</p>
     </Layout>
   )
 }
 // Step 3: Export your component
-export default BakingPage
+export default BlogPage

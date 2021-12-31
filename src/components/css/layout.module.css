@@ -54,6 +54,7 @@ nav {
     color: var(--red);
     text-decoration: none;
     transform: scaleX(0);
+    font-size: 0.9rem;
 }
 
 .link-text:after {
