@@ -9,31 +9,38 @@
 .key {
     display:flex;
     justify-content: center;
-    /* margin-top: 5%; */
     margin-bottom: 20px;
     font-style: italic; 
     font-size: 0.65rem;
 }
 
-.flex-wrapper > div {
-    flex: 1 1 50%;
+.metadata {
+    color: var(--lightest-gray);
 }
 
-.box > li{
+.flex-wrapper > div {
+    flex: 0 1 50%;
+}
+
+.box > li {
     text-align: left;
     font-size: 0.85rem;
     line-height: 2;
-    /* font-style: italic; */
 }
 
-h2 {
+h2 { 
+    font-weight: 400;
+    margin: 5rem 0 0 0;
+}
+
+h3 {
     color: var(--red);
     font-weight: 300;
-    /* text-align: left; */
+
 }
 
 .link-wrapper {
-    display:inline-block;
+    display: inline-block;
 }
 .link-text {
     color: var(--red);
