@@ -5,8 +5,8 @@ import Layout from '../../components/layout'
 // Step 2: Define your component
 const MusicPage = () => {
   return (
-    <Layout pageTitle="Musical Creations">
-        <p> hi </p>
+    <Layout pageTitle="Music...">
+        <p> coming soon! (I need to upload to S3)</p>
     </Layout>
   )
 }

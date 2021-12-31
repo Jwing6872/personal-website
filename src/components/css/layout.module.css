@@ -55,10 +55,11 @@ nav {
     text-decoration: none;
     transform: scaleX(0);
     font-size: 0.9rem;
+    font-weight: 400;
 }
 
 .link-text:after {
-  display:block;
+  display: block;
   content: '';
   border-bottom: solid 1px var(--dark-red);  
   transform: scaleX(0);  

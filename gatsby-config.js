@@ -1,6 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: "John Wang",
+    baseUrl: "localhost:8000"
   },
   plugins: [
     "gatsby-plugin-image",

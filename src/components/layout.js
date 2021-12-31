@@ -16,6 +16,7 @@ const Layout = ({ pageTitle, children }) => {
       site {
         siteMetadata {
           title
+          baseUrl
         }
       }
     }
