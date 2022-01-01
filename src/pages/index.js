@@ -17,7 +17,7 @@ import {
 // Step 2: Define your component
 const IndexPage = () => {
   return (
-    <Layout pageTitle="About">
+    <Layout pageTitle="Hi!">
       <div className={flexWrapper}>
         <div className={flexWrapperSub}>
           <div>
