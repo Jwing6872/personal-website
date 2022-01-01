@@ -12,16 +12,18 @@ const Footer = () => {
         <footer>
             <div className={footerInner}>
                 <div className={footerLeft}>
-                    <p> &copy; 2022 Moogis</p>
+                    <p> 2022 Moogis</p>
                 </div>
                 <div className = {footerRight}>
-                    <a href="mailto:johnwang58@gmail.com">
+                    
+                     <a href="https://github.com/johnwwang" rel="noreferrer" target="_blank">
                         <StaticImage
-                            alt="Mailbox Icon"
-                            src="../images/icons/mail.png"
+                            alt="Github Icon"
+                            src="../images/icons/github.png"
                             className = {icon}
                         />
                     </a>
+
                     <a href="www.linkedin.com/in/john-w-wang" rel="noreferrer" target="_blank">
                         <StaticImage
                             alt="LinkedIn Icon"
@@ -29,10 +31,11 @@ const Footer = () => {
                             className = {icon}
                         />                    
                     </a>
-                    <a href="https://github.com/johnwwang" rel="noreferrer" target="_blank">
+                    
+                    <a href="mailto:johnwang58@gmail.com">
                         <StaticImage
-                            alt="Github Icon"
-                            src="../images/icons/github.png"
+                            alt="Mailbox Icon"
+                            src="../images/icons/mail.png"
                             className = {icon}
                         />
                     </a>

@@ -11,6 +11,7 @@ import {
   contactInfo,
   linkText,
   linkWrapper,
+  imageWrapper
 } from '../components/css/pages.module.css'
 
 // Step 2: Define your component
@@ -22,12 +23,12 @@ const IndexPage = () => {
           <div>
             <p> I'm John, a junior&nbsp;
               <span className={linkWrapper}>
-                <a className = {linkText} href="www.linkedin.com/in/john-w-wang" rel="noreferrer" target="_blank"> 
+                <a className = {linkText} href="https://www.harvard.edu/" rel="noreferrer" target="_blank"> 
                   @ Harvard College 
                 </a>
               </span> studying Computer Science and Neuroscience, with a secondary in Economics.
-                I'm generally interested in interdisciplinary applications of computer science, mainly in Artificial Intelligence/Machine Learning 
-                and Algorithmic Economics.
+                My interests include biological and artificial intelligence, though I am also interested in the
+                interface of computation and economics, especially Algorithmic Game Theory.
               </p>
               <p>
               Last summer, I interned&nbsp; 
@@ -45,9 +46,13 @@ const IndexPage = () => {
               </span> as a web designer, creating mental
               health resources for youth affected by adverse childhood experiences.
             </p>
-            <p>In my free time, I work on&nbsp;
+            <p>In my free time, I&nbsp;
                 <span className={linkWrapper}>
-                  <Link to="/projects" className={linkText}>projects</Link>
+                  <Link to="/projects" className={linkText}>work on projects</Link>
+                </span>
+                ,&nbsp;
+                <span className={linkWrapper}>
+                  <Link to="/misc/blog" className={linkText}>conduct research</Link>
                 </span>
               ,&nbsp;
                 <span className={linkWrapper}>
@@ -63,11 +68,12 @@ const IndexPage = () => {
         </div>
 
         <div className={flexWrapperSub}> 
-          <div>
+          <div className={imageWrapper}>
             <StaticImage
             alt="A photograph of me (at hotpot)."
             src="../images/close-up-hotpot.jpg"
-            className = {circularImage}
+            className = {circularImage} 
+            // className={imageWrapper}
             />
           </div>
 

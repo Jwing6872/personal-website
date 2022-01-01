@@ -6,6 +6,13 @@
     flex-wrap: wrap;
 }
 
+.circular-image {
+    border-radius: 50%;
+    /* margin-left: auto; */
+    display: inline-block;
+    width: 50%; 
+ }
+
 .key {
     display:flex;
     justify-content: center;
@@ -34,7 +41,14 @@
     flex: 0 1 50%;
 }
 
+.image-wrapper{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
 .flex-wrapper > .flex-wrapper-sub > .contact-wrapper {
+    padding-top: 1rem;
     padding-left: 3rem;
     padding-right: 3rem;
 }
@@ -76,14 +90,3 @@ h2 {
 .link-text > span {
     display:inline;
 }
-
-.circular-image {
-    width: 50%;
-    border-radius: 50%;
-    overflow: hidden;
-    justify-content: right;
-    display: block;
-    margin: auto;
-    margin-bottom: 1rem;
-    
-  }

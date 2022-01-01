@@ -29,6 +29,6 @@ footer .footer-inner .footer-right .icon {
 footer .footer-inner .footer-right .icon:hover {
     transition: 0.25s;
     filter: invert(35%) sepia(10%) saturate(3063%) hue-rotate(314deg) brightness(92%) contrast(112%);
-    /* box-shadow: -5px -5px var(--dark-gray); */
+    box-shadow: -5px -5px var(--dark-gray);
     /* opacity: 0.; */
 }
