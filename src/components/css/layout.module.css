@@ -65,3 +65,7 @@ nav {
 .link-text:hover:after { 
     transform: scaleX(1); 
 }
+
+.non-page-heading {
+    text-align: center;
+}

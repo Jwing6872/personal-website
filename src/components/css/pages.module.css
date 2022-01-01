@@ -8,7 +8,6 @@
 
 .circular-image {
     border-radius: 50%;
-    /* margin-left: auto; */
     display: inline-block;
     width: 50%; 
  }
@@ -16,7 +15,8 @@
 .key {
     display:flex;
     justify-content: center;
-    margin-bottom: 20px;
+    margin-top: 0;
+    margin-bottom: 15px;
     font-style: italic; 
     font-size: 0.65rem;
 }
@@ -89,4 +89,21 @@ h2 {
 
 .link-text > span {
     display:inline;
+}
+
+.girlfriend-image-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.girlfriend-image{
+    border-radius: 50%;
+    display: inline-block;
+    margin: auto;
+    width: 150px; 
+}
+
+.girlfriend-text{
+    text-align:center;
 }

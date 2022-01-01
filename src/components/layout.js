@@ -1,16 +1,18 @@
 import * as React from 'react'
 import { Link, useStaticQuery, graphql } from 'gatsby'
+import { Helmet } from 'react-helmet'
 import Footer from './footer.js'
 import {
     container,
     navLinks,
     navLinkItem,
     linkText,
-    siteTitle
+    siteTitle,
+    nonPageHeading
   } from './css/layout.module.css'
   
 
-const Layout = ({ pageTitle, children }) => {
+const Layout = ({ pageTitle, isPage=true, children }) => {
   const data = useStaticQuery(graphql`
     query MyQuery {
       site {
@@ -21,10 +23,14 @@ const Layout = ({ pageTitle, children }) => {
       }
     }
   `)
-
+ if (isPage){
   return (
     <div className={container}>
-      <title>{pageTitle} | {data.site.siteMetadata.title}</title>
+      <Helmet>
+        <title>{pageTitle} | {data.site.siteMetadata.title}</title>
+        <link id="favicon" rel="icon" href="..\images\apple-touch-icon.png" type="image/x-icon"/>
+        <meta name="icon" href="..\images\apple-touch-icon.png" />
+      </Helmet>
       <header className={siteTitle}>{data.site.siteMetadata.title}</header>
       <nav>
           <ul className = {navLinks}>
@@ -42,5 +48,16 @@ const Layout = ({ pageTitle, children }) => {
     <Footer/>
     </div>
   )
+ } else{
+  return (
+    <div className={container}>
+      <title>{pageTitle}</title>
+      <main>
+        <h1 className={nonPageHeading}>{pageTitle}</h1>
+        {children}
+      </main>
+    </div>
+  )
+ }
 }
 export default Layout

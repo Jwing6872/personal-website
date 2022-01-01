@@ -73,7 +73,6 @@ const IndexPage = () => {
             alt="A photograph of me (at hotpot)."
             src="../images/close-up-hotpot.jpg"
             className = {circularImage} 
-            // className={imageWrapper}
             />
           </div>
 
