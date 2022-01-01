@@ -15,7 +15,7 @@ const Footer = () => {
                     <p> 2022 Moogis</p>
                 </div>
                 <div className = {footerRight}>
-                    
+
                      <a href="https://github.com/johnwwang" rel="noreferrer" target="_blank">
                         <StaticImage
                             alt="Github Icon"
@@ -24,7 +24,7 @@ const Footer = () => {
                         />
                     </a>
 
-                    <a href="www.linkedin.com/in/john-w-wang" rel="noreferrer" target="_blank">
+                    <a href="https://www.linkedin.com/in/john-w-wang" rel="noreferrer" target="_blank">
                         <StaticImage
                             alt="LinkedIn Icon"
                             src="../images/icons/linkedin.png"
@@ -32,7 +32,7 @@ const Footer = () => {
                         />                    
                     </a>
                     
-                    <a href="mailto:johnwang58@gmail.com">
+                    <a href="mailto:jwwang@college.harvard.edu">
                         <StaticImage
                             alt="Mailbox Icon"
                             src="../images/icons/mail.png"

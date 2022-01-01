@@ -15,7 +15,7 @@ const ProjectPage = () => {
 
   return (
     <Layout pageTitle="Projects">
-        <p>Here are some projects and papers I've been a part. 
+        <p>Here are some projects and papers I've been a part of. 
           I love both starting new projects and improving on pre-existing ones.</p>
         <br/>
         <div className={flexWrapper}>
