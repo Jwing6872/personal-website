@@ -1,8 +1,15 @@
 @import './root.module.css';
 
+@media (max-width: 800px) {
+    :root {
+        --width: 90%;
+      }
+}
+
+
 .container {
     margin: auto;
-    max-width: 35%;
+    max-width: var(--width);
     font-family: 'merriweather';
     color: var(--light-gray);
     text-align: left;
