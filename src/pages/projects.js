@@ -16,13 +16,13 @@ const ProjectPage = () => {
   return (
     <Layout pageTitle="Projects">
         <p>Here are some projects and papers I've been a part of. 
-          I love both starting new projects and improving on pre-existing ones.</p>
+          I enjoy both starting new projects and improving on pre-existing ones.</p>
         <br/>
         <div className={flexWrapper}>
           <div>
             <h2> Syllascrape </h2>
             <p className={metadata}>
-                Personal Project | Fall 2021 - Present | Tools: Python AI, Notion API </p>
+                Personal Project | Winter 2021 - Present | Tools: Python AI, Notion API </p>
             <p className={box}> Implemented a service for students that scrapes a syllabus and creates assignments
               in a Notion database. The service uses PdfMiner to scrape the syllabus to a pandas
               dataframe, which is inputted to the Notion API. Current work involves creating a web service 
@@ -35,7 +35,7 @@ const ProjectPage = () => {
             </span>
             </h2>
             <p className={metadata}>
-                Personal Project | Spring 2022 | Tools: Gatsby.js, AWS</p>
+                Personal Project | Winter 2021 | Tools: Gatsby.js, AWS</p>
             <p className={box}> Originally a website dedicated to&nbsp;
             <span className={linkWrapper}>
             <Link to="/misc/music" className={linkText}>musical tinkerings</Link>
