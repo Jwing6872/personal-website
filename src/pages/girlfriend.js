@@ -3,6 +3,7 @@ import * as React from 'react'
 import Layout from '../components/layout'
 import { StaticImage } from 'gatsby-plugin-image'
 import {
+  girlfriendWrapper,
   girlfriendImageWrapper,
   girlfriendImage,
   girlfriendText
@@ -12,11 +13,12 @@ import {
 const GirlfriendPage = () => {
   return (
     <Layout pageTitle="alanna" isPage={false}>
-        <div className={girlfriendImageWrapper}>
+        <div className={girlfriendWrapper}>
           <StaticImage
           alt="A photograph of my girlfriend (at hotpot)."
           src="../images/close-up-hotpot-gf.jpg"
-          className = {girlfriendImage} 
+          imgClassName = {girlfriendImage}
+          className={girlfriendImageWrapper} 
         />
         </div>
     <p className={girlfriendText}> 🍜 at hotpot! 😎 </p>
