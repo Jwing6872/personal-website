@@ -5,6 +5,7 @@ import Layout from '../components/layout'
 import { StaticImage } from 'gatsby-plugin-image'
 import {
   circularImage,
+  circularImageWrapper,
   flexWrapper,
   flexWrapperSub,
   contactWrapper,
@@ -72,7 +73,8 @@ const IndexPage = () => {
             <StaticImage
             alt="A photograph of me (at hotpot)."
             src="../images/close-up-hotpot.jpg"
-            className = {circularImage} 
+            imgClassName = {circularImage} 
+            className= {circularImageWrapper}
             />
           </div>
 

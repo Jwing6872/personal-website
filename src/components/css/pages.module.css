@@ -6,13 +6,6 @@
     flex-wrap: wrap;
 }
 
-.circular-image {
-    border-radius: 50%;
-    overflow: hidden;
-    display: inline-block;
-    width: 50%; 
- }
-
 .key {
     display:flex;
     justify-content: center;
@@ -40,12 +33,6 @@
     display: flex;
     flex-direction: column; 
     flex: 0 1 50%;
-}
-
-.image-wrapper{
-    justify-content: center;
-    align-items: center;
-    text-align: center;
 }
 
 .flex-wrapper > .flex-wrapper-sub > .contact-wrapper {
@@ -92,12 +79,31 @@ h2 {
     display:inline;
 }
 
+.image-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.circular-image-wrapper {
+    width: 50%; 
+ }
+ 
+.circular-image {
+    border-radius: 50%;
+    overflow: hidden;
+    display: inline-block;
+    margin: auto;
+ }
+
 .girlfriend-wrapper{
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
 }
+
 .girlfriend-image-wrapper{
     width: 150px;
 }
