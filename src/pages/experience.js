@@ -75,7 +75,7 @@ const ExperiencePage = () => {
               
             &nbsp;| Spring 2022</p>
             <ul className={box}>
-              <li>Teaching algorithms and data structures to Harvard College and Extension School students</li>
+              <li>Teaching algorithms and data structures to Harvard College and Extension School students.</li>
             </ul>
           </div>
 

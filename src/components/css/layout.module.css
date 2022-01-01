@@ -19,6 +19,7 @@
 }
 
 h1 {
+    /* display:inline-flex; */
     color: var(--dark-gray);
     font-weight: 700;
     margin: 3rem 0 1.5rem 0;
@@ -69,12 +70,4 @@ nav {
 
 .link-text:hover:after { 
     transform: scaleX(1); 
-}
-
-.circular-image {
-  width: 150px;
-  border-radius: 50%;
-  overflow: hidden;
-  display:inline-block;
-  vertical-align:middle;
 }

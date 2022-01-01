@@ -14,6 +14,11 @@
     font-size: 0.65rem;
 }
 
+.contact-info{
+    color: var(--lightest-gray);
+    text-align: center;
+    overflow-wrap: normal;
+}
 .metadata {
     color: var(--lightest-gray);
     margin: 0;
@@ -22,6 +27,18 @@
 .flex-wrapper > div {
     flex: 0 1 100%;
 }
+
+.flex-wrapper > .flex-wrapper-sub {
+    display: flex;
+    flex-direction: column; 
+    flex: 0 1 50%;
+}
+
+.flex-wrapper > .flex-wrapper-sub > .contact-wrapper {
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
 
 .box > li {
     font-size: 0.80rem;
@@ -59,3 +76,14 @@ h2 {
 .link-text > span {
     display:inline;
 }
+
+.circular-image {
+    width: 50%;
+    border-radius: 50%;
+    overflow: hidden;
+    justify-content: right;
+    display: block;
+    margin: auto;
+    margin-bottom: 1rem;
+    
+  }

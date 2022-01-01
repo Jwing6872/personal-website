@@ -5,8 +5,8 @@ import Layout from '../../components/layout'
 // Step 2: Define your component
 const BakingPage = () => {
   return (
-    <Layout pageTitle="Baking Page">
-        <p> hi </p>
+    <Layout pageTitle="Baking Page...">
+        <p> coming soon!</p>
     </Layout>
   )
 }
