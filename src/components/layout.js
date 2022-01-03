@@ -38,7 +38,7 @@ const Layout = ({ pageTitle, isPage=true, children }) => {
             <li className={navLinkItem}><Link to="/experience" className={linkText}>Experience</Link></li>
             <li className={navLinkItem}><Link to="/coursework" className={linkText}>Coursework</Link></li>
             <li className={navLinkItem}><Link to="/projects" className={linkText}>Projects</Link></li>
-            <li className={navLinkItem}><Link to="/misc/blog" className={linkText}>Blog</Link></li>
+            <li className={navLinkItem}><Link to="/blog" className={linkText}>Blog</Link></li>
           </ul>
       </nav>
       <main>
