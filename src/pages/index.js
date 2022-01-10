@@ -29,7 +29,7 @@ const IndexPage = () => {
                 </a>
               </span> studying Computer Science and Neuroscience, with a secondary in Economics.
                 My interests include biological and artificial intelligence, though I am also interested in the
-                interface of computation and economics, especially Algorithmic Game Theory.
+                interface of computation and economics.
               </p>
               <p>
               Last summer, I interned&nbsp; 
