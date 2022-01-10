@@ -21,6 +21,9 @@ const Layout = ({ pageTitle, isPage=true, children }) => {
           baseUrl
         }
       }
+      file(name: {eq: "resume"}) {
+        publicURL
+      }
     }
   `)
  if (isPage){
@@ -38,6 +41,7 @@ const Layout = ({ pageTitle, isPage=true, children }) => {
             <li className={navLinkItem}><Link to="/experience" className={linkText}>Experience</Link></li>
             <li className={navLinkItem}><Link to="/coursework" className={linkText}>Coursework</Link></li>
             <li className={navLinkItem}><Link to="/projects" className={linkText}>Projects</Link></li>
+            <li className={navLinkItem}><a href={data.file.publicURL} rel="noreferrer" target="_blank" className={linkText}>Resume</a></li>
             <li className={navLinkItem}><Link to="/misc/blog" className={linkText}>Blog</Link></li>
           </ul>
       </nav>

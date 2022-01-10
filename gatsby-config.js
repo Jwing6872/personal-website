@@ -25,6 +25,12 @@ module.exports = {
         display: `minimal-ui`,
         icon: `src/images/apple-touch-icon.png`
       }
+    },{
+      resolve: "gatsby-source-filesystem",
+      options: {
+        name: 'static',
+        path: `${__dirname}/src/static`,
+      }
     }
   ],
 };
