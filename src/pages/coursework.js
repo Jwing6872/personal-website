@@ -34,9 +34,9 @@ const CourseworkPage = () => {
             <h2>Spring 2022</h2>
             <ul className={box}>
               <li>CS 181: Machine Learning</li>
-              <li>CS 161: Operating Systems</li>
-              <li>Stat 111: Statistical Inference</li>
-              <li>EC 10b: Principles of Macroeconomics</li>
+              <li>CS 205: High Performance Computing for Science and Engineering</li>
+              <li>CS 228: Computational Learning Theory</li>
+              <li>NEURO 231: Computational Neuroscience</li>
             </ul>
           </div>
           <div>
@@ -44,7 +44,7 @@ const CourseworkPage = () => {
             <ul className={box}>
               <li>CS 61: Systems Programming and Machine Organization</li>
               <li>CS 136: Economics and Computation</li>
-              <li>Stat 110: Probability</li>
+              <li>STAT 110: Probability</li>
               <li>LS 2: Evolutionary Biology</li>
               <li>EC 10a: Principles of Microeconomics</li>
             </ul>
