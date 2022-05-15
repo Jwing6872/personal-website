@@ -15,8 +15,6 @@ const ExperiencePage = () => {
   return (
     <Layout pageTitle="Experience">
         <p>Here are some of the things I have done for industry, non-profits, and other organizations.</p>
-        <br/>
-        <p className={key}>* -&gt; Current.</p>
         <div className={flexWrapper}>
           <div>
             <h2>Case Team Lead&nbsp;
@@ -25,7 +23,7 @@ const ExperiencePage = () => {
                 @ Harvard Undergraduate Data Analytics Group
                 </a>
               </span>
-            &nbsp;*
+            &nbsp;
             </h2>
             <p className={metadata}> 
             <span className={linkWrapper}>
@@ -45,7 +43,7 @@ const ExperiencePage = () => {
                     BE
                   </a>
               </span>
-              &nbsp; | August 2020 - Present 
+              &nbsp; | August 2020 - January 2022
               | Tools: Python, Pandas, Sklearn, React, MongoDB
             </p>
             <ul className={box}>
@@ -65,7 +63,7 @@ const ExperiencePage = () => {
           </div>
 
           <div>
-            <h2>TF for CS 124 *</h2>
+            <h2>TF for CS 124</h2>
             <p className={metadata}> 
               <span className={linkWrapper}>
                     <a className = {linkText} href="https://www.coursicle.com/harvard/courses/COMPSCI/124/" rel="noreferrer" target="_blank"> 
@@ -80,7 +78,7 @@ const ExperiencePage = () => {
           </div>
 
           <div>
-            <h2>TF for CS 51 * </h2>
+            <h2>TF for CS 51 </h2>
             <p className={metadata}> 
             <span className={linkWrapper}>
                     <a className = {linkText} href="https://cs51.io/" rel="noreferrer" target="_blank"> 
@@ -109,7 +107,7 @@ const ExperiencePage = () => {
                 @ Harvard Datamatch
                 </a>
               </span>
-            &nbsp;*
+            &nbsp;
             </h2>
             <p className={metadata}> 
               Algo Team | November 2021 - Present | Tools: Python

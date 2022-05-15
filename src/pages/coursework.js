@@ -28,15 +28,18 @@ const CourseworkPage = () => {
           EC -&gt; Economics | 
           GENED -&gt; General Education
         </div>
+        <div className={key}> 
+          ^ -&gt; Graduate Level Courses
+        </div>
         {/* <p> * </p> */}
         <div className={flexWrapper}>
           <div>
             <h2>Spring 2022</h2>
             <ul className={box}>
               <li>CS 181: Machine Learning</li>
-              <li>CS 205: High Performance Computing for Science and Engineering</li>
-              <li>CS 228: Computational Learning Theory</li>
-              <li>NEURO 231: Computational Neuroscience</li>
+              <li>CS 205: High Performance Computing for Science and Engineering^</li>
+              <li>CS 228: Computational Learning Theory^</li>
+              <li>NEURO 231: Computational Neuroscience^</li>
             </ul>
           </div>
           <div>
@@ -79,7 +82,7 @@ const CourseworkPage = () => {
             <ul className={box}>
               <li>COMPSCI 51: Computation Abstraction and Design</li>
               <li>LS 1b: Genetics, Genomics, and Evolution</li>
-              <li>Expos 20: Expository Writing 20</li>
+              <li>EXPOS 20: Expository Writing 20</li>
               <li>GENED 1045: Choose to Be Healthy </li>
             </ul>
           </div>

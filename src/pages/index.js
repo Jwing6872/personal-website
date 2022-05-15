@@ -22,38 +22,17 @@ const IndexPage = () => {
       <div className={flexWrapper}>
         <div className={flexWrapperSub}>
           <div>
-            <p> I'm John, a junior&nbsp;
+            <p> I'm John, a senior&nbsp;
               <span className={linkWrapper}>
                 <a className = {linkText} href="https://www.harvard.edu/" rel="noreferrer" target="_blank"> 
                   @ Harvard College 
                 </a>
-              </span> studying Computer Science and Neuroscience, with a secondary in Economics.
-                My interests include biological and artificial intelligence, though I am also interested in the
-                interface of computation and economics.
+              </span> studying Computer Science (B.S, M.S) and Neuroscience (B.S).
+                My interests lie in anything related to systems programming and biological and artificial intelligence. 
               </p>
-              <p>
-              Last summer, I interned&nbsp; 
-                <span className={linkWrapper}>
-                  <a className = {linkText} href="https://aws.amazon.com/?nc2=h_lg" rel="noreferrer" target="_blank"> 
-                    @ AWS
-                  </a>
-                </span>
-              , solving code pipeline related issues that impacted the way Amazon Web Services products were 
-              deployed to customers globally. A year before that, I spent my time volunteering&nbsp;
-              <span className={linkWrapper}>
-                    <a className = {linkText} href="https://www.16strongproject.com/did-you-know" rel="noreferrer" target="_blank"> 
-                    @ 16 Strong Project
-                    </a>
-              </span> as a web designer, creating mental
-              health resources for youth affected by adverse childhood experiences.
-            </p>
             <p>In my free time, I&nbsp;
                 <span className={linkWrapper}>
-                  <Link to="/projects" className={linkText}>work on projects</Link>
-                </span>
-                ,&nbsp;
-                <span className={linkWrapper}>
-                  <Link to="/misc/blog" className={linkText}>conduct research</Link>
+                  <Link to="/projects" className={linkText}>work on projects/research</Link>
                 </span>
               ,&nbsp;
                 <span className={linkWrapper}>
@@ -62,9 +41,9 @@ const IndexPage = () => {
               , and&nbsp;
                 <span className={linkWrapper}>
                   <Link to="/misc/music" className={linkText}>produce music</Link>
-                </span>
-              . 
+                </span>.
               </p>
+              <p> I am on gap for academic year 2022-2023.</p>
           </div>
         </div>
 

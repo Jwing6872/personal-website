@@ -2,6 +2,8 @@
 import * as React from 'react'
 import { Link } from 'gatsby'
 import Layout from '../components/layout'
+import cs228 from '../static/CS_228_Final_Project.pdf'
+import cs205 from '../static/cs205report.pdf'
 import {
   flexWrapper,
   box,
@@ -18,7 +20,32 @@ const ProjectPage = () => {
         <p>Here are some projects and papers I've been a part of. 
           I enjoy both starting new projects and improving on pre-existing ones.</p>
         <br/>
+        
         <div className={flexWrapper}>
+        <div>
+            <h2> 
+            <span className={linkWrapper}>
+              <a href={cs228} class = {linkText} target="_blank" rel="noreferrer" id="email">
+              Sample Complexity of Few-shot Learning in Convolutional
+             Neural Networks
+            </a>
+            </span>
+            </h2>
+            <p className={metadata}>
+                CS228 Final Project | Spring 2022 | Tools: Python, PyTorch</p>
+            <p className={box}>Explored few-shot learning of new concept classes with a new theory regarding convolutional neural networks involving geometry of images in embeddings defined by linear readouts of layers. Results indicate that theory intuition is correct, and further it allows us to predict power of learning new concept classes in different model architectures based on said geometry. the work to how the brain's visual pathway could classify images.</p>
+          </div>
+          <div>
+            <h2> 
+              <span className={linkWrapper}>
+                <a href={cs205} class = {linkText} target="_blank" rel="noreferrer" id="email">
+                Parallel Adversary Generation for Training Robust Neural Networks
+                </a>
+              </span> </h2>
+            <p className={metadata}>
+                CS205 Final Project | Spring 2022 | Tools: C++, OpenMP, OpenMPI, LibTorch Frontend API </p>
+            <p className={box}> Implemented first known methodology for multithreaded and multiprocess support for training neural networks with adversaries in C++. Ran tests against Pytorch models, achieving approximately 20 times the speedup of sequential code for thirty two processes. Introduced and implemented novel algorithms for tensor multiplication that outperforms PyTorch impleemntation of tensor multiplications for nonhomogenous matrix sizes. Associated written report can be found here.</p>
+          </div>
           <div>
             <h2> Syllascrape </h2>
             <p className={metadata}>
