@@ -12,7 +12,7 @@ const Footer = () => {
         <footer>
             <div className={footerInner}>
                 <div className={footerLeft}>
-                    <p> 2022 Moogis</p>
+                    <p> 2023 Moogis </p>
                 </div>
                 <div className = {footerRight}>
 
