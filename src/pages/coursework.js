@@ -13,12 +13,7 @@ import {
 const CourseworkPage = () => {
   return (
     <Layout pageTitle="Coursework">
-        <p>There are the courses I have taken&nbsp;
-          <span className={linkWrapper}>
-            <a className = {linkText} href="www.linkedin.com/in/john-w-wang" rel="noreferrer" target="_blank"> 
-              @ Harvard 
-            </a>
-          </span>
+        <p>There are the courses I have taken:
         .</p>
         <br/>
         <div className={key}> 
