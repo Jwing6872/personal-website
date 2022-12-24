@@ -18,40 +18,28 @@ import {
 // Step 2: Define your component
 const IndexPage = () => {
   return (
-    <Layout pageTitle="Hi!">
+    <Layout pageTitle="Bio.">
       <div className={flexWrapper}>
         <div className={flexWrapperSub}>
           <div>
-            <p> I'm John, a senior&nbsp;
-              <span className={linkWrapper}>
-                <a className = {linkText} href="https://www.harvard.edu/" rel="noreferrer" target="_blank"> 
-                  @ Harvard College 
-                </a>
-              </span> studying Computer Science (B.S, M.S) and Neuroscience (B.S).
-                My interests lie in anything related to systems programming and biological and artificial intelligence. 
+            <p> I'm John, a senior @ Harvard College studying Computer Science (B.S, M.S) and Neuroscience (B.S).
+                I am broadly intereted in how we can model the brain through both biological and computational methods. 
               </p>
             <p>In my free time, I&nbsp;
                 <span className={linkWrapper}>
                   <Link to="/projects" className={linkText}>work on projects/research</Link>
                 </span>
-              ,&nbsp;
-                <span className={linkWrapper}>
-                  <Link to="/misc/baking" className={linkText}>bake</Link>
-                </span>
-              , and&nbsp;
-                <span className={linkWrapper}>
-                  <Link to="/misc/music" className={linkText}>produce music</Link>
-                </span>.
+              , produce music, and spend time with friends and family.
               </p>
-              <p> I am on gap for academic year 2022-2023.</p>
+              {/* <p> </p> */}
           </div>
         </div>
 
         <div className={flexWrapperSub}> 
           <div className={imageWrapper}>
             <StaticImage
-            alt="A photograph of me (at hotpot)."
-            src="../images/close-up-hotpot.jpg"
+            alt="A photograph of me, with flowers in the background."
+            src="../images/wang_john.JPG"
             imgClassName = {circularImage} 
             className= {circularImageWrapper}
             />
